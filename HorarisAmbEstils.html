@@ -1,0 +1,142 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tablas Horario</h1>
+    <table>
+        <tr>
+            <th></th>
+            <th>Dilluns</th>
+            <th>Dimarts</th>
+            <th>Dimecres</th>
+            <th>Dijous</th>
+            <th>Divendres</th>
+        </tr>
+        <tr>
+            <td class="hora">15:00-15:55</th>
+            <td rowspan="2" class="ao">Aplicacions Ofimàtiques</td>
+            <td rowspan="2"class="ao">Aplicacions Ofimàtiques</td>
+            <td rowspan="2" class="som">Sistemes operatius monoestació</td>
+            <td class="ap">Angles professional</td>
+            <td rowspan="2" class="xl">Xarxes Locals</td>
+        </tr>
+        <tr>
+            <td class="hora">15:55-16:50</td>
+            <td rowspan="2" class="xl">Xarxes Locals</td>
+            
+        </tr>
+        <tr>
+            <td class="hora">16:50-17:45</td>
+            <td class="ap">Angles professional</td>
+            <td class="som">Sistemes operatius monoestació</td>
+            <td class="mme">Muntatge i manteniment d'equips</td>
+    
+            <td class="d">Digitalització</td>
+        </tr>
+        <tr>
+            <td class="hora">17:45-18:15</td>
+            <td colspan="5" class="pati">Pati</td>
+        </tr>
+        <tr>
+            <td class="hora">17:45-18:15</td>
+            <td class="ap">Angles professional</td>
+            <td class="som">Sistemes operatius monoestació</td>
+            <td class="mme">Muntatge i manteniment d'equips</td>
+            <td class="som">Sistemes operatius monoestació</td>
+            <td rowspan="3" class="ipo">Itinerari Personal</td>
+        </tr>
+        <tr>
+            <td class="hora">19:10-20-05</td>
+            <td rowspan="2" class="mme">Muntatge i manteniment d'equips</td>
+            <td rowspan="2" class="mme">Muntatge i manteniment d'equips</td>
+            <td rowspan="2" class="xl">Xarxes Locals</td>
+            <td rowspan="2" class="ao">Aplicacions Ofimàtiques</td>
+        </tr>
+        <tr>
+            <td class="hora">20:05-21:00</td>
+        </tr>
+    </table>
+</body>
+</html>
+</body>
+CSS:
+body{
+    background-color: #7193dd;
+}
+table{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+    color: yellow;
+}
+th,td{
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+}
+th{
+    background-color: #240f31;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid white;
+}
+.hora{
+    background-color:crimson;
+    color:#665200;
+    width: 120px;
+    font-weight: bold;
+}
+.pati{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.ao{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.ap{
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+}
+.mme{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.xl{
+    background-color:#665200;
+    color: white;
+    text-align: center;
+}
+.som{
+    background-color: #1e8d2d;
+    color: white;
+    text-align: center;
+}
+.ipo{
+    background-color: #aa3b0f;
+    color: white;
+    text-align: center;
+}
+.d{
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+}
+</html>
